@@ -1,3 +1,20 @@
-*{
-    
+@font-face {
+    font-family: didactGothic;
+    src: url("./DidactGothic-Regular.ttf");
 }
+
+body{
+    font-family: didactGothic;
+    text-align: center;
+    background-color: rgb(140, 247, 247);
+    color: rgb(112, 54, 249);
+}
+
+.Main-Card{
+    padding: 15%;
+    background: linear-gradient(150deg,rgb(57, 57, 244) 20%,rgb(252, 151, 232),rgb(55, 48, 48) 80%);
+    margin: 15%;
+    border-radius: 10%;
+}
+
+
